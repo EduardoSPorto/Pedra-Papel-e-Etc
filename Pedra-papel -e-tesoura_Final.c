@@ -9,24 +9,24 @@ int main (){
         srand( (unsigned)time(NULL) );
         printf("<||||||||||||||||||||||||||||||||>\n");
         do{
-        printf("    Bem vindo a Pedra Papel e tesoura,\nas regras são simples!");
-		printf("\n-PEDRA ganha de TESOURA\n-TESOURA ganha de PAPEL\n-PAPEL ganha de PEDRA,\n");
-		printf("agora para jogar apenas escolha uma destas opções");
+        printf("    Bem vindo a Pedra Papel e tesoura\nAs regras sÃ£o simples!");
+		printf("\n-PEDRA ganha de TESOURA\n-TESOURA ganha de PAPEL\n-PAPEL ganha de PEDRA\n");
+		printf("agora para jogar apenas escolha uma destas opÃ§Ãµes");
 		printf("\n(1)PEDRA\n(2)PAPEL\n(3)TESOURA\n(4)LAGARTO\n(5)SPOCK\n");
 		scanf("%d",&opl);
 		if(opl<1 || opl>5)
-            printf("-Você escolheu, uma alternativa errada\n\n!!!escolha uma das opções validas!!!\n\n");
+            printf("-VocÃª escolheu, uma alternativa errada\n\n!!!escolha uma das opÃ§Ãµes validas!!!\n\n");
 		}while(opl<1 || opl>5);
 		if(opl==1)
-            printf("-Você escolheu PEDRA\n\n");
+            printf("-VocÃª escolheu PEDRA\n\n");
             else if (opl==2)
-                printf("-Você escolheu PAPEL\n\n");
+                printf("-VocÃª escolheu PAPEL\n\n");
             else if (opl==3)
-                printf("-Você escolheu TESOURA\n\n");
+                printf("-VocÃª escolheu TESOURA\n\n");
             else if (opl==4)
-                printf("-Você escolheu LAGARTO\n\n");
+                printf("-VocÃª escolheu LAGARTO\n\n");
             else if (opl==5)
-                printf("-Você escolheu SPOCK\n\n");
+                printf("-VocÃª escolheu SPOCK\n\n");
 
 
             int opc= rand () %(5 +1 - 1)+ 1;
@@ -62,7 +62,7 @@ int main (){
             win=2;
             printf("\nResultado: ");
             if(win==1)
-                printf("VOCÊ ganhou\n\n");
+                printf("VOCÃŠ ganhou\n\n");
                 else if (win==2)
                     printf("PC ganhou\n\n");
                 else if(win==3)
@@ -74,10 +74,10 @@ int main (){
                 */
 
         do{
-		printf("Voce quer jogar novamente? \n\n(Sim-1)\n(Não-2)\n\n");
+		printf("Voce quer jogar novamente? \n\n(Sim-1)\n(NÃ£o-2)\n\n");
 		scanf("%d",&s_n);
 		if(s_n<1 || s_n>2)
-            printf("\n\n-Você escolheu, uma alternativa errada\n\n!!!escolha uma das opções validas!!!\n\n");
+            printf("\n\n-VocÃª escolheu, uma alternativa errada\n\n!!!escolha uma das opÃ§Ãµes validas!!!\n\n");
             printf("\n<||||||||||||||||||||||||||||||||>\n\n");
 
 		}while(s_n<1 || s_n>2);
